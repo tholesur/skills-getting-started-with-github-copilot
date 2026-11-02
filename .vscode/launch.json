@@ -16,6 +16,17 @@
         "src/static/*"
       ],
       "jinja": true
+    },
+    {
+      "name": "Run Backend Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "-q",
+        "tests"
+      ],
+      "justMyCode": false
     }
   ]
 }
